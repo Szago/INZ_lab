@@ -1,0 +1,1465 @@
+DEBUG 2024-03-25 14:02:22,525 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-03-25 14:02:22,883 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2024-03-25 14:02:22,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.Web.Host.Startup.LABAPPWebHostModule, LABAPP.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.LABAPPWebCoreModule, LABAPP.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.LABAPPApplicationModule, LABAPP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.LABAPPCoreModule, LABAPP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.EntityFrameworkCore.LABAPPEntityFrameworkModule, LABAPP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:22,896 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2024-03-25 14:02:23,011 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-03-25 14:02:23,012 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-03-25 14:02:23,012 [1    ] o.Configuration.LanguageManagementConfig - Converted LABAPP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-03-25 14:02:23,012 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-03-25 14:02:23,302 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: LABAPP.EntityFrameworkCore.LABAPPDbContext, LABAPP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:02:23,404 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-03-25 14:02:23,473 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-03-25 14:02:23,513 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-03-25 14:02:23,529 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LABAPP
+DEBUG 2024-03-25 14:02:23,553 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-03-25 14:02:23,557 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-03-25 14:02:23,559 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[LABAPP.MultiTenancy.Tenant, LABAPP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LABAPP.Authorization.Users.User, LABAPP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2024-03-25 14:02:23,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2024-03-25 14:02:23,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2024-03-25 14:02:23,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Users.Dto.CreateUserDto
+DEBUG 2024-03-25 14:02:23,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Users.Dto.UserDto
+DEBUG 2024-03-25 14:02:23,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-03-25 14:02:23,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-03-25 14:02:23,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Roles.Dto.PermissionDto
+DEBUG 2024-03-25 14:02:23,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-03-25 14:02:23,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.MultiTenancy.Dto.TenantDto
+WARN  2024-03-25 14:02:24,306 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2024-03-25 14:02:24,427 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:24,846 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name]
+FROM [AbpEditions] AS [a]
+WHERE [a].[Name] = N'Standard'
+INFO  2024-03-25 14:02:24,998 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (Size = 32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpEditions] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [IsDeleted], [LastModificationTime], [LastModifierUserId], [Name])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+SELECT [Id]
+FROM [AbpEditions]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,067 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,092 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,102 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,105 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,108 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,111 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,113 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,115 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,118 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,120 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,123 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,126 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,129 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,132 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,134 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,137 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,140 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,143 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,145 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,148 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,151 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,153 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,156 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,159 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,161 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,164 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,174 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE [a].[TenantId] IS NULL AND ([a].[Name] = N'Admin')
+INFO  2024-03-25 14:02:25,240 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 128), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 64), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int64), @p12='?' (Size = 32), @p13='?' (Size = 32), @p14='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpRoles] ([ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [Description], [DisplayName], [IsDefault], [IsDeleted], [IsStatic], [LastModificationTime], [LastModifierUserId], [Name], [NormalizedName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+SELECT [Id]
+FROM [AbpRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,257 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE ([a].[Discriminator] = N'RolePermissionSetting') AND ([a].[TenantId] IS NULL AND ([a].[RoleId] = @__adminRoleForHost_Id_0))
+INFO  2024-03-25 14:02:25,297 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int64), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 128), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTime2), @p15='?' (DbType = Int64), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 128), @p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = DateTime2), @p22='?' (DbType = Int64), @p23='?' (Size = 4000), @p24='?' (DbType = Boolean), @p25='?' (Size = 128), @p26='?' (DbType = Int32), @p27='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] bigint, [_Position] [int]);
+MERGE [AbpPermissions] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, 0),
+(@p7, @p8, @p9, @p10, @p11, @p12, @p13, 1),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20, 2),
+(@p21, @p22, @p23, @p24, @p25, @p26, @p27, 3)) AS i ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (i.[CreationTime], i.[CreatorUserId], i.[Discriminator], i.[IsGranted], i.[Name], i.[RoleId], i.[TenantId])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [AbpPermissions] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+INFO  2024-03-25 14:02:25,309 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE [a].[TenantId] IS NULL AND ([a].[UserName] = N'admin')
+INFO  2024-03-25 14:02:25,370 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = DateTime2), @p7='?' (Size = 256), @p8='?' (Size = 328), @p9='?' (DbType = Boolean), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Int64), @p17='?' (DbType = DateTime2), @p18='?' (Size = 64), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 128), @p22='?' (Size = 328), @p23='?' (Size = 32), @p24='?' (Size = 128), @p25='?' (Size = 64), @p26='?' (DbType = Int32), @p27='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUsers] ([AccessFailedCount], [AuthenticationSource], [ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [EmailConfirmationCode], [IsActive], [IsDeleted], [IsEmailConfirmed], [IsLockoutEnabled], [IsPhoneNumberConfirmed], [IsTwoFactorEnabled], [LastModificationTime], [LastModifierUserId], [LockoutEndDateUtc], [Name], [NormalizedEmailAddress], [NormalizedUserName], [Password], [PasswordResetCode], [PhoneNumber], [SecurityStamp], [Surname], [TenantId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27);
+SELECT [Id]
+FROM [AbpUsers]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,392 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__eventData_Entity_Id_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[TenantId], [a].[UserId], [a].[UserLinkId], [a].[UserName]
+FROM [AbpUserAccounts] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ([a].[TenantId] IS NULL AND ([a].[UserId] = @__eventData_Entity_Id_1))
+INFO  2024-03-25 14:02:25,428 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64), @p11='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUserAccounts] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [IsDeleted], [LastModificationTime], [LastModifierUserId], [TenantId], [UserId], [UserLinkId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpUserAccounts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,446 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUserRoles] ([CreationTime], [CreatorUserId], [RoleId], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [AbpUserRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,456 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,476 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int64), @p4='?' (Size = 256), @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpSettings] ([CreationTime], [CreatorUserId], [LastModificationTime], [LastModifierUserId], [Name], [TenantId], [UserId], [Value])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [AbpSettings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,482 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,485 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int64), @p4='?' (Size = 256), @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpSettings] ([CreationTime], [CreatorUserId], [LastModificationTime], [LastModifierUserId], [Name], [TenantId], [UserId], [Value])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [AbpSettings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,489 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:02:25,493 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int64), @p4='?' (Size = 256), @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpSettings] ([CreationTime], [CreatorUserId], [LastModificationTime], [LastModifierUserId], [Name], [TenantId], [UserId], [Value])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [AbpSettings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,504 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConnectionString], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EditionId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenancyName]
+FROM [AbpTenants] AS [a]
+WHERE [a].[TenancyName] = N'Default'
+INFO  2024-03-25 14:02:25,506 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name]
+FROM [AbpEditions] AS [a]
+WHERE [a].[Name] = N'Standard'
+INFO  2024-03-25 14:02:25,533 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 1024), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (Size = 64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpTenants] ([ConnectionString], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EditionId], [IsActive], [IsDeleted], [LastModificationTime], [LastModifierUserId], [Name], [TenancyName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpTenants]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,552 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE ([a].[TenantId] = @___tenantId_0) AND ([a].[Name] = N'Admin')
+INFO  2024-03-25 14:02:25,558 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 128), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 64), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int64), @p12='?' (Size = 32), @p13='?' (Size = 32), @p14='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpRoles] ([ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [Description], [DisplayName], [IsDefault], [IsDeleted], [IsStatic], [LastModificationTime], [LastModifierUserId], [Name], [NormalizedName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+SELECT [Id]
+FROM [AbpRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,568 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE ([a].[Discriminator] = N'RolePermissionSetting') AND (([a].[TenantId] = @___tenantId_0) AND ([a].[RoleId] = @__adminRole_Id_1))
+INFO  2024-03-25 14:02:25,577 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpPermissions] ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [AbpPermissions]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,580 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpPermissions] ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [AbpPermissions]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,581 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpPermissions] ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [AbpPermissions]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,598 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE ([a].[TenantId] = @___tenantId_0) AND ([a].[UserName] = N'admin')
+INFO  2024-03-25 14:02:25,614 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = DateTime2), @p7='?' (Size = 256), @p8='?' (Size = 328), @p9='?' (DbType = Boolean), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Int64), @p17='?' (DbType = DateTime2), @p18='?' (Size = 64), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 128), @p22='?' (Size = 328), @p23='?' (Size = 32), @p24='?' (Size = 128), @p25='?' (Size = 64), @p26='?' (DbType = Int32), @p27='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUsers] ([AccessFailedCount], [AuthenticationSource], [ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [EmailConfirmationCode], [IsActive], [IsDeleted], [IsEmailConfirmed], [IsLockoutEnabled], [IsPhoneNumberConfirmed], [IsTwoFactorEnabled], [LastModificationTime], [LastModifierUserId], [LockoutEndDateUtc], [Name], [NormalizedEmailAddress], [NormalizedUserName], [Password], [PasswordResetCode], [PhoneNumber], [SecurityStamp], [Surname], [TenantId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27);
+SELECT [Id]
+FROM [AbpUsers]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,625 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__eventData_Entity_TenantId_0='?' (DbType = Int32), @__eventData_Entity_Id_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[TenantId], [a].[UserId], [a].[UserLinkId], [a].[UserName]
+FROM [AbpUserAccounts] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND (([a].[TenantId] = @__eventData_Entity_TenantId_0) AND ([a].[UserId] = @__eventData_Entity_Id_1))
+INFO  2024-03-25 14:02:25,630 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64), @p11='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUserAccounts] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [IsDeleted], [LastModificationTime], [LastModifierUserId], [TenantId], [UserId], [UserLinkId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpUserAccounts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,638 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUserRoles] ([CreationTime], [CreatorUserId], [RoleId], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [AbpUserRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:25,677 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:25,694 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[Icon], [a].[IsDeleted], [a].[IsDisabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId]
+FROM [AbpLanguages] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)
+INFO  2024-03-25 14:02:25,724 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:25,737 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ([a].[UserId] IS NULL AND [a].[TenantId] IS NULL)
+INFO  2024-03-25 14:02:25,747 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2024-03-25 14:02:26,008 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\w65548\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2024-03-25 14:02:26,087 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - -
+INFO  2024-03-25 14:02:26,087 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - -
+INFO  2024-03-25 14:02:26,167 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'LABAPP.Web.Host.Controllers.HomeController.Index (LABAPP.Web.Host)'
+INFO  2024-03-25 14:02:26,169 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'LABAPP.Web.Host.Controllers.HomeController.Index (LABAPP.Web.Host)'
+INFO  2024-03-25 14:02:26,203 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LABAPP.Web.Host.Controllers.HomeController (LABAPP.Web.Host).
+INFO  2024-03-25 14:02:26,205 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LABAPP.Web.Host.Controllers.HomeController (LABAPP.Web.Host).
+INFO  2024-03-25 14:02:26,235 [15   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:26,237 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:26,307 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:26,308 [12   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:26,327 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2024-03-25 14:02:26,329 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2024-03-25 14:02:26,337 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action LABAPP.Web.Host.Controllers.HomeController.Index (LABAPP.Web.Host) in 126.7373ms
+INFO  2024-03-25 14:02:26,337 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action LABAPP.Web.Host.Controllers.HomeController.Index (LABAPP.Web.Host) in 125.1084ms
+INFO  2024-03-25 14:02:26,339 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'LABAPP.Web.Host.Controllers.HomeController.Index (LABAPP.Web.Host)'
+INFO  2024-03-25 14:02:26,340 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'LABAPP.Web.Host.Controllers.HomeController.Index (LABAPP.Web.Host)'
+INFO  2024-03-25 14:02:26,346 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - - - 0 - - 261.3306ms
+INFO  2024-03-25 14:02:26,356 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger - -
+INFO  2024-03-25 14:02:26,362 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - - - 302 - - 277.7909ms
+INFO  2024-03-25 14:02:26,387 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2024-03-25 14:02:26,389 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger - - - 301 - - 32.8080ms
+INFO  2024-03-25 14:02:26,444 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 56.0252ms
+INFO  2024-03-25 14:02:26,458 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - -
+INFO  2024-03-25 14:02:26,460 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - -
+INFO  2024-03-25 14:02:26,463 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - -
+INFO  2024-03-25 14:02:26,465 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - -
+INFO  2024-03-25 14:02:26,469 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - -
+INFO  2024-03-25 14:02:26,497 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2024-03-25 14:02:26,498 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2024-03-25 14:02:26,505 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\w65548\Downloads\INZ_O-feature-mssql\aspnet-core\src\LABAPP.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2024-03-25 14:02:26,507 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\w65548\Downloads\INZ_O-feature-mssql\aspnet-core\src\LABAPP.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2024-03-25 14:02:26,509 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - - 200 3697 application/javascript 51.7313ms
+INFO  2024-03-25 14:02:26,512 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - - - 200 143632 text/css 52.1129ms
+INFO  2024-03-25 14:02:26,514 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2024-03-25 14:02:26,516 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - - 200 8029 application/javascript 48.4818ms
+INFO  2024-03-25 14:02:26,518 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 60.1693ms
+INFO  2024-03-25 14:02:26,531 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 73.1623ms
+INFO  2024-03-25 14:02:26,608 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2024-03-25 14:02:26,611 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'LABAPP.Web.Host.Controllers.AntiForgeryController.SetCookie (LABAPP.Web.Host)'
+INFO  2024-03-25 14:02:26,616 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller LABAPP.Web.Host.Controllers.AntiForgeryController (LABAPP.Web.Host).
+INFO  2024-03-25 14:02:26,627 [11   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:26,629 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2024-03-25 14:02:26,634 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:26,678 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-03-25 14:02:26,681 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - -
+INFO  2024-03-25 14:02:26,685 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2024-03-25 14:02:26,687 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - - - 200 628 image/png 7.0420ms
+INFO  2024-03-25 14:02:26,774 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action LABAPP.Web.Host.Controllers.AntiForgeryController.SetCookie (LABAPP.Web.Host) in 155.7763ms
+INFO  2024-03-25 14:02:26,776 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'LABAPP.Web.Host.Controllers.AntiForgeryController.SetCookie (LABAPP.Web.Host)'
+INFO  2024-03-25 14:02:26,779 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 170.9598ms
+INFO  2024-03-25 14:02:26,794 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 164.3591ms
+INFO  2024-03-25 14:02:28,569 [10   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:28,581 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:02:33,598 [15   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:33,601 [15   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:02:36,512 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Role/GetAll - -
+INFO  2024-03-25 14:02:36,516 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'LABAPP.Roles.RoleAppService.GetAllAsync (LABAPP.Application)'
+INFO  2024-03-25 14:02:36,536 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[LABAPP.Roles.Dto.RoleDto]] GetAllAsync(LABAPP.Roles.Dto.PagedRoleResultRequestDto) on controller LABAPP.Roles.RoleAppService (LABAPP.Application).
+INFO  2024-03-25 14:02:36,787 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:36,797 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @___sourceName_0='?' (Size = 128), @__CultureInfo_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[Key], [a].[LanguageName], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Source], [a].[TenantId], [a].[Value]
+FROM [AbpLanguageTexts] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND (([a].[Source] = @___sourceName_0) AND ([a].[LanguageName] = @__CultureInfo_Name_1))
+INFO  2024-03-25 14:02:36,832 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:36,837 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+WARN  2024-03-25 14:02:36,840 [10   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method1498(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2024-03-25 14:02:36,846 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-03-25 14:02:36,851 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action LABAPP.Roles.RoleAppService.GetAllAsync (LABAPP.Application) in 312.9159ms
+INFO  2024-03-25 14:02:36,852 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'LABAPP.Roles.RoleAppService.GetAllAsync (LABAPP.Application)'
+INFO  2024-03-25 14:02:36,854 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Role/GetAll - - - 401 205 application/json;+charset=utf-8 343.4984ms
+INFO  2024-03-25 14:02:38,618 [8    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:38,622 [8    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:02:43,630 [11   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:43,634 [11   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:02:48,660 [10   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:48,665 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:02:53,657 [10   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:53,661 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:02:57,147 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate application/json 54
+INFO  2024-03-25 14:02:57,153 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2024-03-25 14:02:57,154 [8    ] pNetCore.Cors.Infrastructure.CorsService - Request origin https://localhost:44311 does not have permission to access the resource.
+INFO  2024-03-25 14:02:57,157 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'LABAPP.Controllers.TokenAuthController.Authenticate (LABAPP.Web.Core)'
+INFO  2024-03-25 14:02:57,163 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[LABAPP.Models.TokenAuth.AuthenticateResultModel] Authenticate(LABAPP.Models.TokenAuth.AuthenticateModel) on controller LABAPP.Controllers.TokenAuthController (LABAPP.Web.Core).
+INFO  2024-03-25 14:02:57,271 [8    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:57,303 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedUserNameOrEmailAddress_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE (((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)) AND (([a].[NormalizedUserName] = @__normalizedUserNameOrEmailAddress_0) OR ([a].[NormalizedEmailAddress] = @__normalizedUserNameOrEmailAddress_0))
+INFO  2024-03-25 14:02:57,358 [15   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[CreationTime], [a].[CreatorUserId], [a].[TenantId], [a].[UserId]
+FROM [AbpUserClaims] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ([a].[UserId] = @__p_0)
+INFO  2024-03-25 14:02:57,402 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__ef_filter__p_2='?' (DbType = Boolean), @__ef_filter__p_3='?' (DbType = Boolean), @__ef_filter__p_0='?' (DbType = Boolean), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Name]
+FROM [AbpUserRoles] AS [a]
+INNER JOIN (
+    SELECT [a0].[Id], [a0].[Name]
+    FROM [AbpRoles] AS [a0]
+    WHERE ((@__ef_filter__p_2 = CAST(1 AS bit)) OR ([a0].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_3 = CAST(1 AS bit)) OR [a0].[TenantId] IS NULL)
+) AS [t] ON [a].[RoleId] = [t].[Id]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ([a].[UserId] = @__user_Id_0)
+INFO  2024-03-25 14:02:57,415 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_3='?' (DbType = Boolean), @__ef_filter__p_4='?' (DbType = Boolean), @__ef_filter__p_6='?' (DbType = Boolean), @__ef_filter__p_7='?' (DbType = Boolean), @__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Name]
+FROM [AbpUserOrganizationUnits] AS [a]
+INNER JOIN (
+    SELECT [a0].[OrganizationUnitId], [a0].[RoleId]
+    FROM [AbpOrganizationUnitRoles] AS [a0]
+    WHERE ((@__ef_filter__p_3 = CAST(1 AS bit)) OR ([a0].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_4 = CAST(1 AS bit)) OR [a0].[TenantId] IS NULL)
+) AS [t] ON [a].[OrganizationUnitId] = [t].[OrganizationUnitId]
+INNER JOIN (
+    SELECT [a1].[Id], [a1].[Name]
+    FROM [AbpRoles] AS [a1]
+    WHERE ((@__ef_filter__p_6 = CAST(1 AS bit)) OR ([a1].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_7 = CAST(1 AS bit)) OR [a1].[TenantId] IS NULL)
+) AS [t0] ON [t].[RoleId] = [t0].[Id]
+WHERE (((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)) AND ([a].[UserId] = @__user_Id_0)
+INFO  2024-03-25 14:02:57,431 [29   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedName_0='?' (Size = 32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE (((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)) AND ([a].[NormalizedName] = @__normalizedName_0)
+INFO  2024-03-25 14:02:57,445 [28   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[CreationTime], [a].[CreatorUserId], [a].[RoleId], [a].[TenantId]
+FROM [AbpRoleClaims] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ([a].[RoleId] = @__p_0)
+INFO  2024-03-25 14:02:57,455 [28   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:57,479 [28   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (DbType = DateTime2), @p4='?' (Size = 1) (DbType = Byte), @p5='?' (Size = 64), @p6='?' (DbType = Int32), @p7='?' (DbType = Int64), @p8='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUserLoginAttempts] ([BrowserInfo], [ClientIpAddress], [ClientName], [CreationTime], [Result], [TenancyName], [TenantId], [UserId], [UserNameOrEmailAddress])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+SELECT [Id]
+FROM [AbpUserLoginAttempts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:57,570 [28   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:57,574 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:57,581 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-03-25 14:02:57,585 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action LABAPP.Controllers.TokenAuthController.Authenticate (LABAPP.Web.Core) in 420.6588ms
+INFO  2024-03-25 14:02:57,587 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'LABAPP.Controllers.TokenAuthController.Authenticate (LABAPP.Web.Core)'
+INFO  2024-03-25 14:02:57,589 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate application/json 54 - 200 2001 application/json;+charset=utf-8 442.4767ms
+INFO  2024-03-25 14:02:57,594 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2024-03-25 14:02:57,598 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 4.3811ms
+INFO  2024-03-25 14:02:57,607 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - -
+INFO  2024-03-25 14:02:57,611 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2024-03-25 14:02:57,615 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - - - 200 143632 text/css 7.5821ms
+INFO  2024-03-25 14:02:57,664 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2024-03-25 14:02:57,675 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2024-03-25 14:02:57,696 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - -
+INFO  2024-03-25 14:02:57,700 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2024-03-25 14:02:57,703 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - - - 200 628 image/png 6.1223ms
+INFO  2024-03-25 14:02:57,728 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2024-03-25 14:02:57,730 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2024-03-25 14:02:57,743 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:57,757 [28   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND (([a].[UserId] = @__userId_0) AND [a].[TenantId] IS NULL)
+INFO  2024-03-25 14:02:57,773 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'LABAPP.Web.Host.Controllers.AntiForgeryController.SetCookie (LABAPP.Web.Host)'
+INFO  2024-03-25 14:02:57,777 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller LABAPP.Web.Host.Controllers.AntiForgeryController (LABAPP.Web.Host).
+INFO  2024-03-25 14:02:57,782 [28   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:57,786 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:02:57,789 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-03-25 14:02:57,791 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action LABAPP.Web.Host.Controllers.AntiForgeryController.SetCookie (LABAPP.Web.Host) in 12.2528ms
+INFO  2024-03-25 14:02:57,793 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'LABAPP.Web.Host.Controllers.AntiForgeryController.SetCookie (LABAPP.Web.Host)'
+INFO  2024-03-25 14:02:57,796 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 131.7192ms
+INFO  2024-03-25 14:02:57,802 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.6800ms
+INFO  2024-03-25 14:02:58,669 [11   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:02:58,674 [11   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:03:03,695 [15   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:03:03,699 [15   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:03:08,712 [28   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:03:08,716 [28   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:03:08,818 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Role/GetAll - -
+INFO  2024-03-25 14:03:08,825 [28   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2024-03-25 14:03:08,829 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'LABAPP.Roles.RoleAppService.GetAllAsync (LABAPP.Application)'
+INFO  2024-03-25 14:03:08,834 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[LABAPP.Roles.Dto.RoleDto]] GetAllAsync(LABAPP.Roles.Dto.PagedRoleResultRequestDto) on controller LABAPP.Roles.RoleAppService (LABAPP.Application).
+INFO  2024-03-25 14:03:08,856 [28   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:03:08,866 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE (((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)) AND ([a].[Id] = @__p_0)
+INFO  2024-03-25 14:03:08,873 [8    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_2='?' (DbType = Boolean), @__ef_filter__p_3='?' (DbType = Boolean), @__ef_filter__p_0='?' (DbType = Boolean), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Name]
+FROM [AbpUserRoles] AS [a]
+INNER JOIN (
+    SELECT [a0].[Id], [a0].[Name]
+    FROM [AbpRoles] AS [a0]
+    WHERE ((@__ef_filter__p_2 = CAST(1 AS bit)) OR ([a0].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_3 = CAST(1 AS bit)) OR [a0].[TenantId] IS NULL)
+) AS [t] ON [a].[RoleId] = [t].[Id]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ([a].[UserId] = @__user_Id_0)
+INFO  2024-03-25 14:03:08,876 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_3='?' (DbType = Boolean), @__ef_filter__p_4='?' (DbType = Boolean), @__ef_filter__p_6='?' (DbType = Boolean), @__ef_filter__p_7='?' (DbType = Boolean), @__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Name]
+FROM [AbpUserOrganizationUnits] AS [a]
+INNER JOIN (
+    SELECT [a0].[OrganizationUnitId], [a0].[RoleId]
+    FROM [AbpOrganizationUnitRoles] AS [a0]
+    WHERE ((@__ef_filter__p_3 = CAST(1 AS bit)) OR ([a0].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_4 = CAST(1 AS bit)) OR [a0].[TenantId] IS NULL)
+) AS [t] ON [a].[OrganizationUnitId] = [t].[OrganizationUnitId]
+INNER JOIN (
+    SELECT [a1].[Id], [a1].[Name]
+    FROM [AbpRoles] AS [a1]
+    WHERE ((@__ef_filter__p_6 = CAST(1 AS bit)) OR ([a1].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_7 = CAST(1 AS bit)) OR [a1].[TenantId] IS NULL)
+) AS [t0] ON [t].[RoleId] = [t0].[Id]
+WHERE (((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)) AND ([a].[UserId] = @__user_Id_0)
+INFO  2024-03-25 14:03:08,881 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedName_0='?' (Size = 32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE (((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)) AND ([a].[NormalizedName] = @__normalizedName_0)
+INFO  2024-03-25 14:03:08,894 [8    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[Discriminator], [a].[IsGranted], [a].[Name], [a].[TenantId], [a].[UserId]
+FROM [AbpPermissions] AS [a]
+WHERE (([a].[Discriminator] = N'UserPermissionSetting') AND ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)) AND ([a].[UserId] = @__userId_0)
+INFO  2024-03-25 14:03:08,912 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE (((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)) AND ([a].[Id] = @__p_0)
+INFO  2024-03-25 14:03:08,926 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[Discriminator], [a].[IsGranted], [a].[Name], [a].[TenantId], [a].[RoleId]
+FROM [AbpPermissions] AS [a]
+WHERE (([a].[Discriminator] = N'RolePermissionSetting') AND ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)) AND ([a].[RoleId] = @__roleId_0)
+INFO  2024-03-25 14:03:08,957 [29   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [AbpRoles] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)
+INFO  2024-03-25 14:03:09,009 [29   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__ef_filter__p_3='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[ConcurrencyStamp], [t].[CreationTime], [t].[CreatorUserId], [t].[DeleterUserId], [t].[DeletionTime], [t].[Description], [t].[DisplayName], [t].[IsDefault], [t].[IsDeleted], [t].[IsStatic], [t].[LastModificationTime], [t].[LastModifierUserId], [t].[Name], [t].[NormalizedName], [t].[TenantId], [t0].[Id], [t0].[CreationTime], [t0].[CreatorUserId], [t0].[Discriminator], [t0].[IsGranted], [t0].[Name], [t0].[TenantId], [t0].[RoleId]
+FROM (
+    SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+    FROM [AbpRoles] AS [a]
+    WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)
+    ORDER BY [a].[DisplayName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN (
+    SELECT [a0].[Id], [a0].[CreationTime], [a0].[CreatorUserId], [a0].[Discriminator], [a0].[IsGranted], [a0].[Name], [a0].[TenantId], [a0].[RoleId]
+    FROM [AbpPermissions] AS [a0]
+    WHERE ([a0].[Discriminator] = N'RolePermissionSetting') AND ((@__ef_filter__p_3 = CAST(1 AS bit)) OR [a0].[TenantId] IS NULL)
+) AS [t0] ON [t].[Id] = [t0].[RoleId]
+ORDER BY [t].[DisplayName], [t].[Id], [t0].[Id]
+INFO  2024-03-25 14:03:09,028 [29   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:03:09,032 [8    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:03:09,035 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-03-25 14:03:09,042 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action LABAPP.Roles.RoleAppService.GetAllAsync (LABAPP.Application) in 205.9071ms
+INFO  2024-03-25 14:03:09,044 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'LABAPP.Roles.RoleAppService.GetAllAsync (LABAPP.Application)'
+INFO  2024-03-25 14:03:09,046 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Role/GetAll - - - 200 305 application/json;+charset=utf-8 228.4952ms
+INFO  2024-03-25 14:03:13,744 [15   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:03:13,747 [15   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:03:18,759 [28   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:03:18,763 [28   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:03:23,760 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:03:23,766 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:03:28,766 [11   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:03:28,771 [11   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:03:33,767 [8    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:03:33,772 [8    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:03:38,773 [29   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:03:38,777 [29   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:03:43,778 [8    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:03:43,781 [8    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+DEBUG 2024-03-25 14:28:56,758 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-03-25 14:28:56,877 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2024-03-25 14:28:56,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.Web.Host.Startup.LABAPPWebHostModule, LABAPP.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.LABAPPWebCoreModule, LABAPP.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.LABAPPApplicationModule, LABAPP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.LABAPPCoreModule, LABAPP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.EntityFrameworkCore.LABAPPEntityFrameworkModule, LABAPP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:56,891 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2024-03-25 14:28:56,934 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-03-25 14:28:56,934 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-03-25 14:28:56,934 [1    ] o.Configuration.LanguageManagementConfig - Converted LABAPP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-03-25 14:28:56,934 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-03-25 14:28:57,206 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: LABAPP.EntityFrameworkCore.LABAPPDbContext, LABAPP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:28:57,333 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-03-25 14:28:57,385 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-03-25 14:28:57,424 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-03-25 14:28:57,440 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LABAPP
+DEBUG 2024-03-25 14:28:57,465 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-03-25 14:28:57,469 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-03-25 14:28:57,471 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[LABAPP.MultiTenancy.Tenant, LABAPP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LABAPP.Authorization.Users.User, LABAPP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2024-03-25 14:28:57,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2024-03-25 14:28:57,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2024-03-25 14:28:57,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Users.Dto.CreateUserDto
+DEBUG 2024-03-25 14:28:57,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Users.Dto.UserDto
+DEBUG 2024-03-25 14:28:57,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-03-25 14:28:57,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-03-25 14:28:57,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Roles.Dto.PermissionDto
+DEBUG 2024-03-25 14:28:57,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-03-25 14:28:57,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.MultiTenancy.Dto.TenantDto
+DEBUG 2024-03-25 14:28:57,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.JobOffers.Dto.CreateJobOfferDto
+DEBUG 2024-03-25 14:28:57,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.JobOffers.Dto.JobOfferDto
+WARN  2024-03-25 14:28:58,248 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+WARN  2024-03-25 14:28:58,251 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'JobOffer'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2024-03-25 14:28:58,376 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:28:58,809 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name]
+FROM [AbpEditions] AS [a]
+WHERE [a].[Name] = N'Standard'
+INFO  2024-03-25 14:28:58,898 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (15ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,903 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,905 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,907 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,909 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,911 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,913 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,915 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,917 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,919 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,920 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,922 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,924 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:58,934 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE [a].[TenantId] IS NULL AND ([a].[Name] = N'Admin')
+INFO  2024-03-25 14:28:58,974 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE ([a].[Discriminator] = N'RolePermissionSetting') AND ([a].[TenantId] IS NULL AND ([a].[RoleId] = @__adminRoleForHost_Id_0))
+INFO  2024-03-25 14:28:58,984 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE [a].[TenantId] IS NULL AND ([a].[UserName] = N'admin')
+INFO  2024-03-25 14:28:59,046 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:59,048 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:59,050 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:28:59,101 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConnectionString], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EditionId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenancyName]
+FROM [AbpTenants] AS [a]
+WHERE [a].[TenancyName] = N'Default'
+INFO  2024-03-25 14:28:59,126 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE ([a].[TenantId] = @___tenantId_0) AND ([a].[Name] = N'Admin')
+INFO  2024-03-25 14:28:59,131 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE ([a].[Discriminator] = N'RolePermissionSetting') AND (([a].[TenantId] = @___tenantId_0) AND ([a].[RoleId] = @__adminRole_Id_1))
+INFO  2024-03-25 14:28:59,139 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE ([a].[TenantId] = @___tenantId_0) AND ([a].[UserName] = N'admin')
+INFO  2024-03-25 14:28:59,181 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:28:59,203 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[Icon], [a].[IsDeleted], [a].[IsDisabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId]
+FROM [AbpLanguages] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)
+INFO  2024-03-25 14:28:59,253 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:28:59,265 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ([a].[UserId] IS NULL AND [a].[TenantId] IS NULL)
+INFO  2024-03-25 14:28:59,293 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2024-03-25 14:28:59,508 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\w65548\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2024-03-25 14:28:59,566 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - -
+INFO  2024-03-25 14:28:59,636 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'LABAPP.Web.Host.Controllers.HomeController.Index (LABAPP.Web.Host)'
+INFO  2024-03-25 14:28:59,663 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LABAPP.Web.Host.Controllers.HomeController (LABAPP.Web.Host).
+INFO  2024-03-25 14:28:59,688 [14   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:28:59,896 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (102ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:28:59,945 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2024-03-25 14:28:59,952 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action LABAPP.Web.Host.Controllers.HomeController.Index (LABAPP.Web.Host) in 283.8396ms
+INFO  2024-03-25 14:28:59,955 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'LABAPP.Web.Host.Controllers.HomeController.Index (LABAPP.Web.Host)'
+INFO  2024-03-25 14:28:59,966 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger - -
+INFO  2024-03-25 14:28:59,972 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - - - 302 - - 407.9118ms
+INFO  2024-03-25 14:28:59,997 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger - - - 301 - - 32.0165ms
+INFO  2024-03-25 14:28:59,998 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2024-03-25 14:29:00,052 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 53.2894ms
+INFO  2024-03-25 14:29:00,061 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - -
+INFO  2024-03-25 14:29:00,063 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - -
+INFO  2024-03-25 14:29:00,064 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - -
+INFO  2024-03-25 14:29:00,066 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - -
+INFO  2024-03-25 14:29:00,067 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - -
+INFO  2024-03-25 14:29:00,082 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\w65548\Downloads\INZ_O-feature-mssql\aspnet-core\src\LABAPP.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2024-03-25 14:29:00,084 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\w65548\Downloads\INZ_O-feature-mssql\aspnet-core\src\LABAPP.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2024-03-25 14:29:00,086 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - - 200 8029 application/javascript 22.6046ms
+INFO  2024-03-25 14:29:00,093 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - - 200 3697 application/javascript 22.4671ms
+INFO  2024-03-25 14:29:00,104 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2024-03-25 14:29:00,106 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2024-03-25 14:29:00,108 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2024-03-25 14:29:00,112 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - - - 200 143632 text/css 50.8398ms
+INFO  2024-03-25 14:29:00,117 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 55.3374ms
+INFO  2024-03-25 14:29:00,126 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 65.5969ms
+INFO  2024-03-25 14:29:00,198 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2024-03-25 14:29:00,222 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2024-03-25 14:29:00,334 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2024-03-25 14:29:00,334 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2024-03-25 14:29:00,359 [8    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:29:00,379 [29   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND (([a].[UserId] = @__userId_0) AND [a].[TenantId] IS NULL)
+INFO  2024-03-25 14:29:00,396 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'LABAPP.Web.Host.Controllers.AntiForgeryController.SetCookie (LABAPP.Web.Host)'
+INFO  2024-03-25 14:29:00,401 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller LABAPP.Web.Host.Controllers.AntiForgeryController (LABAPP.Web.Host).
+INFO  2024-03-25 14:29:00,411 [29   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:29:00,417 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:29:00,427 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-03-25 14:29:00,497 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action LABAPP.Web.Host.Controllers.AntiForgeryController.SetCookie (LABAPP.Web.Host) in 94.2864ms
+INFO  2024-03-25 14:29:00,499 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'LABAPP.Web.Host.Controllers.AntiForgeryController.SetCookie (LABAPP.Web.Host)'
+INFO  2024-03-25 14:29:00,502 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 304.4819ms
+INFO  2024-03-25 14:29:00,512 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 289.9287ms
+INFO  2024-03-25 14:29:02,487 [28   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:29:02,500 [28   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:29:07,515 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:29:07,518 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:29:12,527 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:29:12,530 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:29:17,533 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:29:17,538 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+DEBUG 2024-03-25 14:30:29,478 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-03-25 14:30:29,568 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2024-03-25 14:30:29,579 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.Web.Host.Startup.LABAPPWebHostModule, LABAPP.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.LABAPPWebCoreModule, LABAPP.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.LABAPPApplicationModule, LABAPP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.LABAPPCoreModule, LABAPP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LABAPP.EntityFrameworkCore.LABAPPEntityFrameworkModule, LABAPP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=6.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:29,584 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2024-03-25 14:30:29,627 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-03-25 14:30:29,627 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-03-25 14:30:29,627 [1    ] o.Configuration.LanguageManagementConfig - Converted LABAPP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-03-25 14:30:29,627 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-03-25 14:30:29,918 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: LABAPP.EntityFrameworkCore.LABAPPDbContext, LABAPP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-03-25 14:30:30,052 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-03-25 14:30:30,100 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-03-25 14:30:30,141 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-03-25 14:30:30,156 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LABAPP
+DEBUG 2024-03-25 14:30:30,179 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-03-25 14:30:30,183 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-03-25 14:30:30,185 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[LABAPP.MultiTenancy.Tenant, LABAPP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LABAPP.Authorization.Users.User, LABAPP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2024-03-25 14:30:30,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2024-03-25 14:30:30,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2024-03-25 14:30:30,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Users.Dto.CreateUserDto
+DEBUG 2024-03-25 14:30:30,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Users.Dto.UserDto
+DEBUG 2024-03-25 14:30:30,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-03-25 14:30:30,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-03-25 14:30:30,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.Roles.Dto.PermissionDto
+DEBUG 2024-03-25 14:30:30,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-03-25 14:30:30,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.MultiTenancy.Dto.TenantDto
+DEBUG 2024-03-25 14:30:30,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.JobOffers.Dto.CreateJobOfferDto
+DEBUG 2024-03-25 14:30:30,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LABAPP.JobOffers.Dto.JobOfferDto
+WARN  2024-03-25 14:30:30,967 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+WARN  2024-03-25 14:30:30,969 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'JobOffer'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2024-03-25 14:30:31,091 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:31,501 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name]
+FROM [AbpEditions] AS [a]
+WHERE [a].[Name] = N'Standard'
+INFO  2024-03-25 14:30:31,591 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,596 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,598 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,600 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,601 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,603 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,605 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,607 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,609 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,611 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,613 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,615 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,617 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,627 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE [a].[TenantId] IS NULL AND ([a].[Name] = N'Admin')
+INFO  2024-03-25 14:30:31,667 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE ([a].[Discriminator] = N'RolePermissionSetting') AND ([a].[TenantId] IS NULL AND ([a].[RoleId] = @__adminRoleForHost_Id_0))
+INFO  2024-03-25 14:30:31,679 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE [a].[TenantId] IS NULL AND ([a].[UserName] = N'admin')
+INFO  2024-03-25 14:30:31,740 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,742 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,744 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-03-25 14:30:31,795 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConnectionString], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EditionId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenancyName]
+FROM [AbpTenants] AS [a]
+WHERE [a].[TenancyName] = N'Default'
+INFO  2024-03-25 14:30:31,818 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE ([a].[TenantId] = @___tenantId_0) AND ([a].[Name] = N'Admin')
+INFO  2024-03-25 14:30:31,823 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE ([a].[Discriminator] = N'RolePermissionSetting') AND (([a].[TenantId] = @___tenantId_0) AND ([a].[RoleId] = @__adminRole_Id_1))
+INFO  2024-03-25 14:30:31,831 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE ([a].[TenantId] = @___tenantId_0) AND ([a].[UserName] = N'admin')
+INFO  2024-03-25 14:30:31,872 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:31,902 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[Icon], [a].[IsDeleted], [a].[IsDisabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId]
+FROM [AbpLanguages] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)
+INFO  2024-03-25 14:30:31,951 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:31,963 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ([a].[UserId] IS NULL AND [a].[TenantId] IS NULL)
+INFO  2024-03-25 14:30:31,985 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2024-03-25 14:30:32,189 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\w65548\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2024-03-25 14:30:32,243 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - -
+INFO  2024-03-25 14:30:32,318 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'LABAPP.Web.Host.Controllers.HomeController.Index (LABAPP.Web.Host)'
+INFO  2024-03-25 14:30:32,347 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LABAPP.Web.Host.Controllers.HomeController (LABAPP.Web.Host).
+INFO  2024-03-25 14:30:32,372 [10   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:32,504 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:30:32,551 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2024-03-25 14:30:32,558 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action LABAPP.Web.Host.Controllers.HomeController.Index (LABAPP.Web.Host) in 204.7896ms
+INFO  2024-03-25 14:30:32,560 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'LABAPP.Web.Host.Controllers.HomeController.Index (LABAPP.Web.Host)'
+INFO  2024-03-25 14:30:32,572 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger - -
+INFO  2024-03-25 14:30:32,577 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - - - 302 - - 335.6964ms
+INFO  2024-03-25 14:30:32,601 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger - - - 301 - - 29.1878ms
+INFO  2024-03-25 14:30:32,603 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2024-03-25 14:30:32,651 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 47.5316ms
+INFO  2024-03-25 14:30:32,660 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - -
+INFO  2024-03-25 14:30:32,663 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - -
+INFO  2024-03-25 14:30:32,664 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - -
+INFO  2024-03-25 14:30:32,666 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - -
+INFO  2024-03-25 14:30:32,668 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - -
+INFO  2024-03-25 14:30:32,685 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\w65548\Downloads\INZ_O-feature-mssql\aspnet-core\src\LABAPP.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2024-03-25 14:30:32,688 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\w65548\Downloads\INZ_O-feature-mssql\aspnet-core\src\LABAPP.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2024-03-25 14:30:32,691 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - - 200 3697 application/javascript 26.6145ms
+INFO  2024-03-25 14:30:32,693 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - - 200 8029 application/javascript 26.6821ms
+INFO  2024-03-25 14:30:32,699 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2024-03-25 14:30:32,701 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2024-03-25 14:30:32,703 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2024-03-25 14:30:32,707 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - - - 200 143632 text/css 46.9819ms
+INFO  2024-03-25 14:30:32,713 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 51.8099ms
+INFO  2024-03-25 14:30:32,724 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 63.0696ms
+INFO  2024-03-25 14:30:32,802 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2024-03-25 14:30:32,825 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2024-03-25 14:30:32,946 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2024-03-25 14:30:32,946 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2024-03-25 14:30:32,972 [5    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:32,993 [11   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND (([a].[UserId] = @__userId_0) AND [a].[TenantId] IS NULL)
+INFO  2024-03-25 14:30:33,010 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'LABAPP.Web.Host.Controllers.AntiForgeryController.SetCookie (LABAPP.Web.Host)'
+INFO  2024-03-25 14:30:33,015 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller LABAPP.Web.Host.Controllers.AntiForgeryController (LABAPP.Web.Host).
+INFO  2024-03-25 14:30:33,025 [11   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:33,030 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:30:33,040 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-03-25 14:30:33,100 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action LABAPP.Web.Host.Controllers.AntiForgeryController.SetCookie (LABAPP.Web.Host) in 82.1691ms
+INFO  2024-03-25 14:30:33,102 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'LABAPP.Web.Host.Controllers.AntiForgeryController.SetCookie (LABAPP.Web.Host)'
+INFO  2024-03-25 14:30:33,104 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 303.2519ms
+INFO  2024-03-25 14:30:33,123 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 297.4107ms
+INFO  2024-03-25 14:30:35,185 [16   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:35,199 [16   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:30:40,212 [14   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:40,215 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:30:45,222 [15   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:45,226 [15   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:30:50,226 [12   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:50,229 [12   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:30:50,812 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/JobOffer/GetAll - -
+INFO  2024-03-25 14:30:50,816 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2024-03-25 14:30:50,819 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'LABAPP.JobOffers.JobOfferAppService.GetAllAsync (LABAPP.Application)'
+INFO  2024-03-25 14:30:50,834 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "JobOffer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[LABAPP.JobOffers.Dto.JobOfferDto]] GetAllAsync(Abp.Application.Services.Dto.PagedResultRequestDto) on controller LABAPP.JobOffers.JobOfferAppService (LABAPP.Application).
+INFO  2024-03-25 14:30:50,879 [12   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:50,894 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [JOBOFFER] AS [j]
+INFO  2024-03-25 14:30:51,037 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [j].[Id], [j].[ActiveFrom], [j].[ActiveTo], [j].[Body], [j].[CompanyName], [j].[ContractType], [j].[CreatedByID], [j].[IsPublished], [j].[Localization], [j].[Position], [j].[Salary], [j].[ShortDescription]
+FROM [JOBOFFER] AS [j]
+ORDER BY [j].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+INFO  2024-03-25 14:30:51,042 [14   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:51,047 [5    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2024-03-25 14:30:51,051 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-03-25 14:30:51,061 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action LABAPP.JobOffers.JobOfferAppService.GetAllAsync (LABAPP.Application) in 224.2856ms
+INFO  2024-03-25 14:30:51,063 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'LABAPP.JobOffers.JobOfferAppService.GetAllAsync (LABAPP.Application)'
+INFO  2024-03-25 14:30:51,065 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/JobOffer/GetAll - - - 200 124 application/json;+charset=utf-8 253.4333ms
+INFO  2024-03-25 14:30:55,242 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:30:55,246 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:31:00,257 [12   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:31:00,260 [12   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:31:05,276 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:31:05,279 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-03-25 14:31:10,287 [14   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.10 initialized 'LABAPPDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFO  2024-03-25 14:31:10,291 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] <> CAST(1 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
